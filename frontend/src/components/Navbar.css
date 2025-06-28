@@ -1,0 +1,31 @@
+.main-navbar {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  border: none;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand-custom {
+  font-weight: bold;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link.active, .nav-link[aria-current="page"] {
+  background: rgba(255,255,255,0.08); /* subtle highlight, keeps color scheme */
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Remove extra padding from container if any */
+.container-fluid.px-4 {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+} 

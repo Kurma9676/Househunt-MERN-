@@ -1,0 +1,19 @@
+/* Navbar.css */
+.navbar {
+  width: 100%;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link.active, .nav-link[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.container-fluid {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}

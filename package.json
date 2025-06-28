@@ -1,0 +1,19 @@
+{
+  "name": "househund",
+  "version": "1.0.0",
+  "description": "HouseHunt: Finding Your Perfect Rental Home",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": ["rental", "house", "apartment", "mern", "react", "nodejs"],
+  "author": "HouseHunt Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
